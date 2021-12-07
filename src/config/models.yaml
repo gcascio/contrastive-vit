@@ -1,0 +1,143 @@
+vit-b_patch16_image224:
+  image_size: 224
+  patch_size: 16
+  model_dim: 768
+  depth: 12
+  heads: 12
+  mlp_dim: 3072
+
+vit-b_patch14_image224:
+  image_size: 224
+  patch_size: 14
+  model_dim: 768
+  depth: 12
+  heads: 12
+  mlp_dim: 3072
+
+vit-s_patch16_image224:
+  image_size: 224
+  patch_size: 16
+  model_dim: 384
+  depth: 12
+  heads: 6
+  mlp_dim: 1536
+
+vit-s_patch32_image224:
+  image_size: 224
+  patch_size: 32
+  model_dim: 384
+  depth: 12
+  heads: 6
+  mlp_dim: 1536
+
+vit-s_patch32_image64:
+  image_size: 64
+  patch_size: 32
+  model_dim: 384
+  depth: 12
+  heads: 6
+  mlp_dim: 1536
+
+vit-s_patch16_image64:
+  image_size: 64
+  patch_size: 16
+  model_dim: 384
+  depth: 12
+  heads: 6
+  mlp_dim: 1536
+
+vit-s_patch8_image64:
+  image_size: 64
+  patch_size: 8
+  model_dim: 384
+  depth: 12
+  heads: 6
+  mlp_dim: 1536
+
+vit-s_patch4_image64:
+  image_size: 64
+  patch_size: 4
+  model_dim: 384
+  depth: 12
+  heads: 6
+  mlp_dim: 1536
+
+vit-s_patch7_image28:
+  image_size: 28
+  patch_size: 7
+  model_dim: 64
+  depth: 8
+  heads: 6
+  mlp_dim: 128
+
+vit-t_patch32_image64:
+  image_size: 64
+  patch_size: 32
+  model_dim: 192
+  depth: 12
+  heads: 3
+  mlp_dim: 768
+
+vit-t_patch16_image64:
+  image_size: 64
+  patch_size: 16
+  model_dim: 192
+  depth: 12
+  heads: 3
+  mlp_dim: 768
+
+vit-t_patch8_image64:
+  image_size: 64
+  patch_size: 8
+  model_dim: 192
+  depth: 12
+  heads: 3
+  mlp_dim: 768
+
+vit-t_patch4_image64:
+  image_size: 64
+  patch_size: 4
+  model_dim: 192
+  depth: 12
+  heads: 3
+  mlp_dim: 768
+
+vit-t_patch4_image16:
+  image_size: 16
+  patch_size: 4
+  model_dim: 192
+  depth: 12
+  heads: 3
+  mlp_dim: 768
+
+vit-xt_patch32_image64:
+  image_size: 64
+  patch_size: 32
+  model_dim: 96
+  depth: 12
+  heads: 1
+  mlp_dim: 384
+
+vit-xt_patch16_image64:
+  image_size: 64
+  patch_size: 16
+  model_dim: 96
+  depth: 12
+  heads: 1
+  mlp_dim: 384
+
+vit-xt_patch8_image64:
+  image_size: 64
+  patch_size: 8
+  model_dim: 96
+  depth: 12
+  heads: 1
+  mlp_dim: 384
+
+vit-xt_patch4_image64:
+  image_size: 64
+  patch_size: 4
+  model_dim: 96
+  depth: 12
+  heads: 1
+  mlp_dim: 384

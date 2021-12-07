@@ -1,0 +1,12 @@
+argguard==0.0.1
+einops==0.3.0
+matplotlib==3.4.1
+numpy==1.21.4
+opencv_python==4.5.4.58
+Pillow==8.4.0
+scipy==1.6.2
+tensorflow==2.7.0
+torch==1.9.0
+torch-xla @ https://storage.googleapis.com/tpu-pytorch/wheels/tpuvm/torch_xla-1.9-cp38-cp38-linux_x86_64.whl
+torchvision==0.10.0
+yamlattributes==0.2.0

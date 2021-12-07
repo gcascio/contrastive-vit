@@ -1,0 +1,17 @@
+config:
+  batch_size: 1024
+  epochs: 150
+  lr: 4.e-4
+  channels: 3
+  num_workers: 4
+  num_classes: 200
+  data_dir: '~/tiny-imagenet-200'
+  dataset: 'imagenet'
+  log_steps: 100
+  drop_last: False
+  scheduler: 'cosine_with_warmup'
+  weight_decay: 0.
+  nprocs: 8
+  alpha_mixup: 0.0
+  warmup_steps: 2000
+  dropout: 0.1

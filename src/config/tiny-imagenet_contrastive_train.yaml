@@ -1,0 +1,17 @@
+config:
+  batch_size: 1024
+  epochs: 100
+  lr: 0.15
+  channels: 3
+  num_workers: 4
+  num_classes: 200
+  data_dir: '~/tiny-imagenet-200'
+  dataset: 'imagenet_contrastive'
+  log_steps: 100
+  drop_last: True
+  scheduler: 'cosine_with_warmup'
+  weight_decay: 0.
+  nprocs: 8
+  alpha_mixup: 0.0
+  warmup_steps: 1500
+  dropout: 0.

@@ -1,0 +1,10 @@
+config:
+  lr:
+    - 4.e-4
+    - 1.e-3
+    - 4.e-3
+  weight_decay:
+    - .0
+    - 1.e-3
+  dropout:
+    - .3
